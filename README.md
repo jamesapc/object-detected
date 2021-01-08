@@ -2,7 +2,7 @@
 
 https://github.com/jamesapc/object-detection.git
 
-## Install
+## Install Packages
 
 `npm install or yarn`
 
