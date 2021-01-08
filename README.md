@@ -4,17 +4,15 @@ https://github.com/jamesapc/object-detection.git
 
 ## Install
 
-npm install or\
-yarn
+`pm install or yarn`
 
 ## Runs app
 
-npm start\ 
-yarn start
+`npm start or yarn start`
 
-## `Open Webcam`
+## Open Webcam
 
-react-webcam(https://www.npmjs.com/package/react-webcam)
+[react-webcam](https://www.npmjs.com/package/react-webcam).
 
 
 
