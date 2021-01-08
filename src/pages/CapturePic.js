@@ -3,7 +3,7 @@ import React, { useCallback, useRef, useState } from 'react'
 import Webcam from 'react-webcam';
 import styled from 'styled-components';
 
-const api = 'cdb29f355cb4059995e054208cd7c06a332acfb83a0a29592e88c58f78a7e4f8a8c0c3cfd71391e67b466dc00b475424ac'
+const api = 'https://nvision.nipa.cloud/api/v1/cdb29f355cb4059995e054208f8cc73c327e9bbc3a0c290e7d88c58022f3e4f8a6c491cf8411c1b1291068c25c15042aac'
 
 const CapturePic = () => {
   const webcamRef = useRef(null);
@@ -17,8 +17,8 @@ const CapturePic = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData()
-    await axios.post(api, formData, {
-      pic: imgSrc
+    await axios.post(api, formData, imgSrc, {
+      rawData: imgSrc
     })
     .then(response => {
       alert('upload success')
