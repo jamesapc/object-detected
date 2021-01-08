@@ -4,7 +4,7 @@ https://github.com/jamesapc/object-detection.git
 
 ## Install
 
-`pm install or yarn`
+`npm install or yarn`
 
 ## Runs app
 
