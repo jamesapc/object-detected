@@ -6,7 +6,7 @@ https://github.com/jamesapc/object-detection.git
 
 `npm install or yarn`
 
-## Runs app
+## Run app
 
 `npm start or yarn start`
 
