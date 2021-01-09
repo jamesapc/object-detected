@@ -19,8 +19,8 @@ const CapturePic = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const str = imgSrc.indexOf(',')
-    const convert = imgSrc.slice(str+1)
-    const objectDetectionService = nvision.objectDetection({
+    const convert = imgSrc.slice(str + 1)
+    const objectDetectionService = await nvision.objectDetection({
       apiKey: api
     });
     objectDetectionService.predict({
