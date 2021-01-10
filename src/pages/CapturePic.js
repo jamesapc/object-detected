@@ -49,6 +49,8 @@ const CapturePic = () => {
           />
         )}
         <Button>Send To API</Button>
+        <hr/>
+        <h1>Response</h1>
         <p>{getData}</p>
       </form>
     </Warpper>
@@ -62,13 +64,15 @@ const Button = styled.button`
   height: 35px;
   border: none;
   border-radius: 5px;
-  margin: 20px;
+  margin: 40px;
   color: white;
-  background-color: blue;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #000CC7;
 `;
 
 const Warpper = styled.div`
-  padding: 20px;
+  padding: 50px 0px 0 6vh ;
   width: 1300px;
   text-align: center;
 `;
